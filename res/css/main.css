@@ -1,0 +1,13 @@
+body {
+    background-color: #000000;
+}
+
+#canvas {
+    /*--aspect: calc(16 / 9);
+    width: min(100%, calc(100vh * var(--aspect)));
+    height: min(100%, calc(100vw / var(--aspect)));*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
